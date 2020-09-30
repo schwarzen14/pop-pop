@@ -3166,7 +3166,7 @@
     e["b10ppc.Preloader"] = de, de.__name__ = ["b10ppc", "Preloader"], de.__super__ = Bt, de.prototype = s(Bt.prototype, {
         _init: function() {
             this._proprietaryAudioFormat = "m4a";
-            var t = new createjs.Bitmap("assets/__PreloaderBg.png");
+            var t = new createjs.Bitmap("assets/PreloaderBg.png");
             Bt.prototype._init.call(this);
             var e = this._kernel.factory.width - 40;
             this._bg = new createjs.Shape, this._bg.graphics.beginFill("#ffffff"), this._bg.graphics.drawRoundRect(-2, -2, e + 2 + 2, 14, 4), this._bg.graphics.endFill(), this._fg = new createjs.Shape, this._fg.graphics.beginFill("#ff3dbd"), this._fg.graphics.drawRoundRect(0, 0, e, 10, 4), this._fg.graphics.endFill(), this._bg.x = this._fg.x = .5 * (this._kernel.factory.width - e), this._bg.y = this._fg.y = this._kernel.factory.height - 20 - 10 - 2, this._context.addChild(t), this._context.addChild(this._bg), this._context.addChild(this._fg)
